@@ -5,41 +5,19 @@ img {
     margin-top: 80px;
     height: 250px;
 }
-.main-head {
+.flowershopheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     grid-area: header;
     height: 70px;
     text-align: center;
-    background-image: url(./assets/raychan.jpg);
+    background-image: url();
     background-size: cover;
     margin-bottom: 70px;
     box-sizing: border-box;
 }
-.main-head > img {
-    margin-left: 10px;
-    background-image: url(./assets/cosmic-joes.png);
-    background-size: cover;
-    height: 70px;
-
-}
-.main-head > .iconUser > img {
-    background-image: url(./assets/Usericon.png);
-    background-size: cover;
+img[alt~="hearted"] {
+    border: 1px solid black;
     height: 30px;
-    border: solid 5px white;
-    border-radius: 30px;
-}
-.main-head > .iconUser > p {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    margin-right: 10px;
-}
-.main-head > .iconUser {
-    display: flex;
-    margin-right: 10px;
-    color: white;
-    justify-content: flex-end;
-    align-items: center;
 }
